@@ -5,7 +5,7 @@ const fs = require('fs');
 const server = http.createServer((req, res) => {
   // Mostrar mensaje en consola
   console.log('Servidor web iniciado');
-
+   
   // Parsear la URL de la solicitud
   const parsedUrl = url.parse(req.url, true);
 
